@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
-import { isPathMatch, setTitle } from './util';
+import { isPathMatch, setTitle } from 'gm-util';
 
 class Breadcrumb extends React.Component {
     componentDidUpdate() {
